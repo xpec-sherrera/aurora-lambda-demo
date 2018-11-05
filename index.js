@@ -36,7 +36,7 @@ exports.handler = async((event, context, callback) => {
             console.log("Creation response: " + JSON.stringify(response));
             output = toResponse(200, "OK");
         }else{
-            console.log("Invalidate schema, errors: " + validation.errors);
+            console.log("Invalid schema, errors: " + validation.errors);
             throw new Error(Utils.buildSchemaErrorsMessage(validation.errors));
         }
     }catch(exc){
