@@ -1,0 +1,14 @@
+{
+  "name": "aurora-lambda-demo",
+  "version": "1.0.0",
+  "description": "Function for creating a new user",
+  "main": "index.js",
+  "author": "sherrera",
+  "dependencies": {
+    "asyncawait": "^1.0.6",
+    "bcrypt": "^2.0.1",
+    "jsonschema": "^1.2.4",
+    "mysql": "^2.16.0",
+    "util.promisify": "^1.0.0"
+  }
+}
